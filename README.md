@@ -3,7 +3,7 @@ Using Machine Learning Algorithms and Librosa
 # Audio Analysis Project
 
 ## Overview
-This project aims to perform audio analysis using Python and the Librosa library. It includes various tasks such as loading audio files, extracting audio features, visualizing spectrograms, MFCCs, and chromagrams, as well as building machine learning models for audio classification.
+This project involves audio analysis using Python and the Librosa library. It covers tasks such as loading audio files, extracting audio features, visualizing spectrograms, MFCCs, and chromagrams, and building machine learning models for audio classification.
 
 ## Table of Contents
 - [Introduction](#audio-analysis-project)
@@ -11,6 +11,9 @@ This project aims to perform audio analysis using Python and the Librosa library
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
+- [Audio Features](#audio-features)
+- [Machine Learning Algorithms](#machine-learning-algorithms)
+- [Libraries](#libraries)
 - [License](#license)
 
 ## Features
@@ -36,5 +39,23 @@ This project aims to perform audio analysis using Python and the Librosa library
 - `requirements.txt`: List of required libraries for installation.
 - `LICENSE`: Project license information.
 
+## Audio Features
+- **Spectrogram:** A visual representation of the spectrum of frequencies in an audio signal as they vary with time.
+- **MFCC (Mel-frequency Cepstral Coefficients):** Represent the short-term power spectrum of a sound.
+- **Chromagram:** A representation of the energy distribution of different musical notes in an audio signal.
+
+## Machine Learning Algorithms
+This project explores various machine learning algorithms for audio classification, including:
+- K-Nearest Neighbors (KNN)
+- Support Vector Machines (SVM)
+- Random Forest
+- Naive Bayes
+
+## Libraries
+- **Librosa:** Python package for music and audio analysis.
+- **Matplotlib:** Plotting library for data visualization.
+- **Scikit-learn:** Library for machine learning algorithms and tools.
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
